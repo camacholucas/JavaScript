@@ -17,3 +17,11 @@ console.log(altura)
 //camelCase
 let nomeCompleto = 'Lucas Camacho'
 console.log(nomeCompleto);
+
+//Variáveis constantes não podem ter seus valores redefinidos
+
+const valorIngresso = 25;
+
+//TypeError: Assignment to constant variable.
+//valorIngresso = 20;
+console.log(valorIngresso);
