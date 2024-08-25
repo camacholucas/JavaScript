@@ -1,12 +1,11 @@
 //Verbo + Substantivo
 
-let corSite = "azul";
+let altura = 1.88
 
-function resetaCor(cor,tonalidade){
-    corSite = cor + tonalidade;
-};
+function mudaAltura(novaAltura){
+    altura = novaAltura;
+}
 
-console.log(corSite);
-resetaCor("Amarelo"," escuro");
-console.log(corSite);
-
+console.log(altura);
+mudaAltura(1.50);
+console.log(altura);
